@@ -9,11 +9,13 @@ function App() {
   return (
     <div className="App bg-darkblue h-screen">
 
-      <div className='container w-fit h-1/2 mx-auto flex flex-col justify-center items-start tracking-widest'>
+      <div className='container w-fit h-3/4 mx-auto flex flex-col justify-center items-start tracking-widest'>
 
         <h1 className='text-5xl text-pastellblue py-9'>portfolio.</h1>
 
-        <h2 className='text-beige text-4xl mt-6'>sophie abraham.</h2>
+        <div className="home__img my-5 w-full"></div>
+
+        <h2 className='text-beige text-4xl mt-6'>sophie abraham</h2>
         <h3 className='text-beige text-3xl mt-6'>junior frontend developer.</h3>
 
         <div className='flex justify-center items-start text-pastellgreen text-5xl mt-24'>
