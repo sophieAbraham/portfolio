@@ -23,16 +23,19 @@ function App() {
             href="https://www.linkedin.com/in/sophie-abraham/"
             target="_blank"
           >
-            <RxLinkedinLogo className='hover:scale-110 transition duration-300 ease-in-out' />
+            <RxLinkedinLogo className='hover:scale-110' />
           </a>
 
           <a
             href="https://github.com/sophieAbraham"
             target="_blank"
           >
-            <RxGithubLogo className='ml-5 hover:scale-110 transition duration-300 ease-in-out' />
+            <RxGithubLogo className='ml-5 hover:scale-110' />
           </a>
         </div>
+
+        <a href="mailto:sophie.abraham@posteo.de" className='text-pastellgreen mt-2'>get in touch.</a>
+
 
       </div>
 
