@@ -34,7 +34,7 @@ function App() {
           </a>
         </div>
 
-        <a href="mailto:sophie.abraham@posteo.de" className='text-pastellgreen mt-2'>get in touch.</a>
+        <a href="mailto:sophie.abraham@posteo.de" className='text-pastellgreen hover:scale-105 mt-2'>get in touch.</a>
 
 
       </div>
