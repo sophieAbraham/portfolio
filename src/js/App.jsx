@@ -46,7 +46,7 @@ function App() {
 
           <li className="flex justify-center items-center">
             <BiCopyright className="text-3xl mr-1" />
-            Copyright 2023
+            copyright 2023
           </li>
 
         </ul>
