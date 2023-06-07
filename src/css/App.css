@@ -8,7 +8,8 @@
 }
 
 html {
-    font-size: 62.5%; /* entspricht genau 10px und ist einfacher zum skalieren */
+    font-size: 62.5%;
+    /* entspricht genau 10px und ist einfacher zum skalieren */
 }
 
 body {
@@ -19,28 +20,31 @@ h1 {
     font-size: 4.8rem;
 }
 
+
+
+/* image details and -animation */
 .home__img {
-  background: url(../../src/assets/portfolio-portrait.JPG);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  box-shadow: inset 0 0 0 9px rgb(107 122 161 / 30%);
-  justify-self: center;
-  width: 300px;
-  height: 300px;
-  animation: profile__animate 8s ease-in-out infinite 1s;
+    background: url(../../src/assets/portfolio-portrait.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 9px rgb(107 122 161 / 30%);
+    justify-self: center;
+    width: 300px;
+    height: 300px;
+    animation: profile__animate 8s ease-in-out infinite 1s;
 }
 
 @keyframes profile__animate {
-  0% {
-      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  }
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
 
-  50% {
-      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-  }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
 
-  100% {
-      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
 }
