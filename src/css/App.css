@@ -22,16 +22,8 @@ h1 {
 
 
 
-/* image details and -animation */
+/* image animation */
 .home__img {
-    background: url(../../src/assets/portfolio-portrait.JPG);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    box-shadow: inset 0 0 0 9px rgb(107 122 161 / 30%);
-    justify-self: center;
-    width: 300px;
-    height: 300px;
     animation: profile__animate 8s ease-in-out infinite 1s;
 }
 

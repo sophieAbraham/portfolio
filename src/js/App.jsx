@@ -52,21 +52,21 @@ function App() {
                 className={`dark:bg-darkblue bg-beige text-slate-400 p-2 rounded-full mr-2 ${theme === opt.text && 'border border-slate-400'}`}
                 onClick={() => setTheme(opt.text)}
               >
-                <Icon title={opt.text} className={`text-3xl`} />
+                <Icon title={opt.text} className={`text-2xl sm:text-3xl`} />
               </button>
             )
           })}
 
         </div>
 
-        <h1 className='text-5xl text-pastellblue py-9'>portfolio.</h1>
+        <h1 className='text-4xl sm:text-5xl text-pastellblue py-9'>portfolio.</h1>
 
-        <div className="home__img my-5"></div>
+        <div className="home__img bg-img-bg bg-center bg-no-repeat bg-cover shadow-3xl justify-self-center w-3/4 sm:w-full h-1/3 my-5"></div>
 
-        <h2 className='dark:text-beige text-darkblue text-4xl mt-6'>sophie abraham</h2>
-        <h3 className='dark:text-beige text-darkblue text-3xl mt-6'>junior frontend developer.</h3>
+        <h2 className='dark:text-beige text-darkblue text-3xl sm:text-4xl mt-6'>sophie abraham</h2>
+        <h3 className='dark:text-beige text-darkblue text-2xl sm:text-3xl mt-6'>junior frontend developer.</h3>
 
-        <div className='flex justify-center items-start dark:text-pastellgreen text-pastellblue text-5xl mt-24'>
+        <div className='flex justify-center items-start dark:text-pastellgreen text-pastellblue text-4xl sm:text-5xl mt-24'>
           <a
             href="https://www.linkedin.com/in/sophie-abraham/"
             target="_blank"
@@ -82,7 +82,7 @@ function App() {
           </a>
         </div>
 
-        <a href="mailto:sophie.abraham@posteo.de" className='dark:text-pastellgreen text-pastellblue hover:scale-105 mt-2'>get in touch.</a>
+        <a href="mailto:sophie.abraham@posteo.de" className='dark:text-pastellgreen text-pastellblue hover:scale-105 text-2xl sm:text-3xl mt-2'>get in touch.</a>
 
 
       </div>

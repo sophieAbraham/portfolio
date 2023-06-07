@@ -7,6 +7,13 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      backgroundImage:{
+        'img-bg':"url('../../src/assets/portfolio-portrait.JPG')"
+      },
+
+      boxShadow: {
+        '3xl': 'inset 0 0 0 9px rgb(107 122 161 / 0.3)',
+      },
 
       fontFamily:{
         MontserratAlt: 'Montserrat Alternates, sans-serif'
