@@ -64,7 +64,7 @@ function App() {
         <div className="home__img bg-img-bg bg-center bg-no-repeat bg-cover shadow-3xl justify-self-center w-3/4 sm:w-full h-1/3 my-5"></div>
 
         <h2 className='dark:text-beige text-darkblue text-3xl sm:text-4xl mt-6'>sophie abraham</h2>
-        <h3 className='dark:text-beige text-darkblue text-2xl sm:text-3xl mt-6'>junior frontend developer.</h3>
+        <h3 className='dark:text-beige text-darkblue text-2xl sm:text-3xl mt-1 sm:mt-2'>junior frontend developer.</h3>
 
         <div className='flex justify-center items-start dark:text-pastellgreen text-pastellblue text-4xl sm:text-5xl mt-24'>
           <a
