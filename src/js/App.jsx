@@ -3,6 +3,7 @@ import { MdOutlineLightMode, MdOutlineDarkMode } from 'react-icons/md';
 import { BiCopyright } from 'react-icons/bi';
 
 import { useEffect, useState } from 'react';
+import TypeWriterEffect from 'react-typewriter-effect';
 
 import '../css/App.css';
 
@@ -66,7 +67,22 @@ function App() {
         <h2 className='dark:text-beige text-darkblue text-3xl sm:text-4xl mt-6'>sophie abraham</h2>
         <h3 className='dark:text-beige text-darkblue text-2xl sm:text-3xl mt-1 sm:mt-2'>junior frontend developer.</h3>
 
-        <div className='flex justify-center items-start dark:text-pastellgreen text-pastellblue text-4xl sm:text-5xl mt-24'>
+        <h4 className='dark:text-beige text-darkblue text-xl sm:text-2xl mt-4 sm:mt-5'>
+          current.
+        </h4>
+
+        <a href="http://www.shiatsu-leipzig.org" target="_blank" className='uppercase dark:text-beige text-darkblue text-xl sm:text-2xl'>
+          <TypeWriterEffect
+            startDelay={200}
+            cursorColor="lightgray"
+            typeSpeed={200}
+            eraseSpeed={200}
+            text='shiatsu-leipzig.org'
+          />
+        </a>
+
+
+        <div className='flex justify-center items-start dark:text-pastellgreen text-pastellblue text-4xl sm:text-5xl mt-20'>
           <a
             href="https://www.linkedin.com/in/sophie-abraham/"
             target="_blank"
