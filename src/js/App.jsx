@@ -3,7 +3,7 @@ import { MdOutlineLightMode, MdOutlineDarkMode } from 'react-icons/md';
 import { BiCopyright } from 'react-icons/bi';
 
 import { useEffect, useState } from 'react';
-import TypeWriterEffect from 'react-typewriter-effect';
+import { Typewriter } from 'react-simple-typewriter'
 
 import '../css/App.css';
 
@@ -72,12 +72,14 @@ function App() {
         </h4>
 
         <a href="http://www.shiatsu-leipzig.org" target="_blank" className='uppercase dark:text-beige text-darkblue text-xl sm:text-2xl'>
-          <TypeWriterEffect
-            startDelay={200}
-            cursorColor="lightgray"
+          <Typewriter
+            words={['shiatsu leipzig', 'shiatsu-leipzig.org']}
+            loop={2}
+            cursor
+            cursorStyle='_'
             typeSpeed={200}
-            eraseSpeed={200}
-            text='shiatsu-leipzig.org'
+            deleteSpeed={200}
+            delaySpeed={1000}
           />
         </a>
 
