@@ -74,7 +74,7 @@ function App() {
         <a href="http://www.shiatsu-leipzig.org" target="_blank" className='uppercase dark:text-beige text-darkblue text-xl sm:text-2xl'>
           <Typewriter
             words={['shiatsu leipzig', 'shiatsu-leipzig.org']}
-            loop={2}
+            loop={1}
             cursor
             cursorStyle='_'
             typeSpeed={200}
