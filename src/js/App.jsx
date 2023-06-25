@@ -37,11 +37,11 @@ function App() {
 
 
   return (
-    <div className="App dark:bg-darkblue bg-beige duration-100 h-screen">
+    <div className="App dark:bg-darkblue bg-beige duration-100 w-full min-h-screen">
 
       <div className='container w-fit h-3/4 mx-auto flex flex-col justify-center items-start tracking-widest'>
 
-        <div className='w-full flex justify-end items-end mt-2'>
+        <div className='w-full flex justify-end items-end mt-2 pt-4'>
 
           {options?.map((opt, index) => {
 
@@ -62,10 +62,10 @@ function App() {
 
         <h1 className='text-4xl sm:text-5xl text-pastellblue py-9'>portfolio.</h1>
 
-        <div className="home__img bg-img-bg bg-center bg-no-repeat bg-cover shadow-3xl justify-self-center w-3/4 sm:w-full h-1/3 my-5"></div>
+        <div className="home__img bg-img-bg bg-center bg-no-repeat bg-cover shadow-3xl justify-self-center w-[250px] md:w-[300px] h-[200px] md:h-[300px] my-5"></div>
 
         <h2 className='dark:text-beige text-darkblue text-3xl sm:text-4xl mt-6'>sophie abraham</h2>
-        <h3 className='dark:text-beige text-darkblue text-2xl sm:text-3xl mt-1 sm:mt-2'>junior frontend developer.</h3>
+        <h3 className='dark:text-beige text-darkblue text-2xl sm:text-3xl mt-1 sm:mt-2'>junior frontend developer</h3>
 
         <h4 className='dark:text-beige text-darkblue text-xl sm:text-2xl mt-4 sm:mt-5'>
           current.
@@ -100,7 +100,7 @@ function App() {
           </a>
         </div>
 
-        <a href="mailto:sophie.abraham@posteo.de" className='dark:text-pastellgreen text-pastellblue hover:scale-105 text-2xl sm:text-3xl mt-2'>get in touch.</a>
+        <a href="mailto:sophie.abraham@posteo.de" className='dark:text-pastellgreen text-pastellblue hover:scale-105 text-2xl sm:text-3xl mt-2 pb-20'>get in touch</a>
 
 
       </div>
