@@ -85,12 +85,12 @@ function App() {
 
 
         <div className='flex justify-center items-start dark:text-pastellgreen text-pastellblue text-4xl sm:text-5xl mt-20'>
-          <a
+          {/* <a
             href="https://www.linkedin.com/in/sophie-abraham/"
             target="_blank"
           >
             <RxLinkedinLogo className='hover:scale-110' />
-          </a>
+          </a> */}
 
           <a
             href="https://github.com/sophieAbraham"
