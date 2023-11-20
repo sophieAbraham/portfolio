@@ -96,7 +96,7 @@ function App() {
             href="https://github.com/sophieAbraham"
             target="_blank"
           >
-            <RxGithubLogo className='ml-5 hover:scale-110' />
+            <RxGithubLogo className='hover:scale-110' />
           </a>
         </div>
 
